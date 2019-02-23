@@ -85,6 +85,6 @@ int main() {
     display_deep(obj1);
     
     deep obj2 {obj1};
-    display_deep(obj2);
+    obj2.set_data_value(1000);
     return 0;
 }
