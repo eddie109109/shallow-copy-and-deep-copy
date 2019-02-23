@@ -41,6 +41,7 @@ int main() {
     return 0;
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class deep {
   private:
@@ -71,7 +72,7 @@ deep::~deep() {
 //    
 //}
 
-deep::deep(const deep &source):deep{*source.data} {      // dxeep copy method 2
+deep::deep(const deep &source):deep{*source.data} {      // deep copy method 2
     cout << "deep copy - delegation" <<endl;
 }
 
